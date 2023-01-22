@@ -187,8 +187,10 @@ p {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 
     position: relative;
-
     margin-bottom: -200px;
+
+    width: 919px;
+    height: 569px;
 
     z-index: 10;
 }
@@ -414,7 +416,7 @@ p {
     margin-bottom: 9px;
 }
 
-label {
+.label {
     display: flex;
 } 
 
@@ -453,7 +455,7 @@ label {
   
     vertical-align: middle;
   
-    background-image: url("img/send.svg");
+    background-image: url("../img/send.svg");
     background-repeat: no-repeat;
   
     content: "";
