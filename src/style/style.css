@@ -271,14 +271,14 @@ p {
 }
 
 .box-hover:hover .description-box {
-    color: blue;
+    color: rgb(0, 251, 255);
     transition: 2s;
 }
 
 /* 4 page */
 
 .fourth-page::before{
-    height: 912.96px;
+    height: 912.76px;
 }
 
 .page-title {
@@ -325,3 +325,30 @@ p {
     text-transform: uppercase;
 }
 /* 5 page */
+
+.fiveth-page::before {
+    height: 861.57px;
+}
+
+.fnt-sz-24.brown-section {
+    color: var(--light-white);
+}
+
+.header-section.brown-section,
+.subtitle.brown-section {
+    color: var(--white);
+}
+
+.description.brown-section {
+    background-color: var(--white);
+}
+
+.title-description.brown-section {
+    color: var(--brown);
+}
+
+.descriprion.columns.brown-section p {
+    color: var(--white);
+}
+
+/* 6 page */
