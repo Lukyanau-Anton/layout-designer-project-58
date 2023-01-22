@@ -17,6 +17,12 @@
     src: url("/src/fonts/Neucha-Regular.ttf");
 }
 
+@font-face {
+    font-weight: 700;
+    font-family: "Open Sans";
+    src: url("/src/fonts/OpenSans-Bold.ttf");
+}
+
 :root {
     --white: #fff;
     --light-white: #d7ccc0;
@@ -358,3 +364,7 @@ p {
 }
 
 /* 7 page */
+
+.seventh-page::before {
+    height: 938.35px;
+}
