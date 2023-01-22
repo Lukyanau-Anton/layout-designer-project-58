@@ -231,6 +231,14 @@ p {
     background-color: var(--white);
 }
 
+.first-row .box {
+    height: 323px;
+}
+
+.second-row .box {
+    height: 348px;
+}
+
 .title-box {
     padding: 0;
 
@@ -283,6 +291,10 @@ p {
 }
 
 /* 4 page */
+
+.img-page {
+    vertical-align: middle;
+}
 
 .fourth-page::before{
     height: 912.76px;
