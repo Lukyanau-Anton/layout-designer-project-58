@@ -30,11 +30,6 @@
 }
 
 body {
-    font-family: "Open Sans";
-    font-size: 16px;
-    line-height: 1.6em;
-    color: #2A2626;
-
     overflow-x: hidden;
 }
 
@@ -56,6 +51,13 @@ h2 {
 
 h3 {
     font-size: 34px;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
 }
 
 .bg-light {
@@ -177,8 +179,100 @@ h3 {
 .video {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 
+    position: relative;
+
     margin-bottom: -200px;
+
+    z-index: 10;
 }
 
 /* 3 page */
 
+.third-page {
+    position: relative;
+
+    z-index: 0;
+
+    background-color: var(--main-dark);
+}
+
+.rows {
+    padding-top: 100px;
+}
+
+.rows a {
+    text-decoration: none;
+}
+
+.first-row,
+.second-row {
+    display: flex;
+    gap: 30px;
+    
+    justify-content: space-between;
+}
+
+.first-row {
+    margin-bottom: 20px;
+}
+
+.box {
+    padding: 24px;
+
+    width: 350px;
+
+    background-color: var(--white);
+}
+
+.title-box {
+    padding: 0;
+
+    background-color: var(--main-dark);
+}
+
+.link-header {
+    color: var(--main);
+    
+    font-size: 52px;
+}
+
+.white {
+    color: var(--white);
+}
+
+.number {
+    font-size: 64px;
+    font-family: Neucha;
+    line-height: 1;
+    color: var(--main-dark);
+
+    margin-bottom: 40px;
+}
+
+.header-box {
+    margin-bottom: 16px;
+
+    color: var(--main);
+}
+
+.box-hover:hover {
+    background-color: var(--main);
+    transition: 2s;
+}
+
+.box-hover:hover .number {
+    color: var(--white);
+    transition: 2s;
+}
+
+.box-hover:hover .header-box {
+    color: var(--main-dark);
+    transition: 2s;
+}
+
+.box-hover:hover .description-box {
+    color: blue;
+    transition: 2s;
+}
+
+/* 4 page */
