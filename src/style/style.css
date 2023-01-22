@@ -368,3 +368,9 @@ p {
 .seventh-page::before {
     height: 938.35px;
 }
+
+/* 8 page */
+
+.eighth-page::before {
+    height: 905.17px;
+}
