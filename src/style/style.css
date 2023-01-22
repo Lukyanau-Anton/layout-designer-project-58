@@ -34,6 +34,8 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
+
+    overflow-x: hidden;
 }
 
 h1,
@@ -41,6 +43,7 @@ h2,
 h3 {
     font-family: Neucha;
     line-height: 1.2em;
+    font-weight: 400;
 }
 
 h1 {
@@ -53,5 +56,99 @@ h2 {
 
 h3 {
     font-size: 34px;
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-brown {
+    background-color: var(--brown);
+}
+
+.bg-img::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: url("/src/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+
+    content: "";
+}
+
+.bg-header::before {
+    height: 913px;
+}
+
+.container {
+    max-width: 1110px;
+
+    padding: 100px 0;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.header-container {
+    padding-bottom: 112px;
+}
+
+.header-title {
+    color: var(--main);
+}
+
+.head {
+    position: relative;
+
+    z-index: 10;
+}
+
+.black {
+    color: var(--dark);
+}
+
+.header-img {
+    height: 525px;
+
+    position: absolute;
+    top: 55px;
+    right: -270px;
+
+    z-index: 0;
+}
+
+.header-description {
+    margin-top: 185px;
+}
+
+.columns {
+    display: flex;
+    gap: 30px;
+}
+
+.column {
+    flex: 1 1 540px;
+}
+
+.mrg-bttm-40 {
+    margin-bottom: 52px;
+}
+
+.btn {
+    text-decoration: none;
+    
+    background-color: var(--main);
+}
+
+.header-btn {
+    padding: 12px 24px;
+
+    text-transform: uppercase;
+
+    color: var(--white);
+    font-weight: bold;
 }
 
