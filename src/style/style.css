@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Open Sans";
+    src: url("/src/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: Neucha;
+    src: url("/src/fonts/Neucha-Regular.ttf");
+}
+
