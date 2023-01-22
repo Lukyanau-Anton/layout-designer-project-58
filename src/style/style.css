@@ -352,3 +352,9 @@ p {
 }
 
 /* 6 page */
+
+.sixth-page::before {
+    height: 887.17px;
+}
+
+/* 7 page */
