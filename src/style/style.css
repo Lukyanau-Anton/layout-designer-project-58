@@ -65,7 +65,7 @@ h3 {
 .bg-brown {
     background-color: var(--brown);
 }
-
+/* header */
 .bg-img::before {
     position: absolute;
     width: 100%;
@@ -96,7 +96,7 @@ h3 {
     padding-bottom: 112px;
 }
 
-.header-title {
+.cl-orange {
     color: var(--main);
 }
 
@@ -141,6 +141,8 @@ h3 {
     text-decoration: none;
     
     background-color: var(--main);
+
+    border: none;
 }
 
 .header-btn {
@@ -151,4 +153,32 @@ h3 {
     color: var(--white);
     font-weight: bold;
 }
+
+.header-btn:hover {
+    background-color: var(--dark);
+    color: var(--main);
+    transition: 0.5s;
+}
+
+/* 2 page */
+
+.second-page {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.mrg-bttm-30 {
+    margin-bottom: 30px;
+}
+
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+
+    margin-bottom: -200px;
+}
+
+/* 3 page */
 
