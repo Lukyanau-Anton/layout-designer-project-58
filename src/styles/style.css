@@ -42,7 +42,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
 }
@@ -60,10 +60,10 @@ h3 {
 }
 
 p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .bg-light {
@@ -73,6 +73,7 @@ p {
 .bg-brown {
   background-color: var(--brown);
 }
+
 /* header */
 .bg-img::before {
   position: absolute;
@@ -147,7 +148,7 @@ p {
 
 .btn {
   text-decoration: none;
-  
+
   background-color: var(--main);
 
   border: none;
@@ -160,7 +161,7 @@ p {
 
   color: var(--white);
   font-weight: bold;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .header-btn:hover {
@@ -218,7 +219,7 @@ p {
 .second-row {
   display: flex;
   gap: 30px;
-  
+
   justify-content: space-between;
 }
 
@@ -231,7 +232,7 @@ p {
 
   width: 350px;
 
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .first-row .box {
@@ -250,7 +251,7 @@ p {
 
 .link-header {
   color: var(--main);
-  
+
   font-size: 52px;
 }
 
@@ -260,7 +261,7 @@ p {
 
 .number {
   font-size: 64px;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 1;
   color: var(--main-dark);
 
@@ -289,7 +290,7 @@ p {
 }
 
 .box-hover:hover .description-box {
-  color: rgb(0, 251, 255);
+  color: black;
   transition: 2s;
 }
 
@@ -297,10 +298,10 @@ p {
 
 .img-page {
   vertical-align: middle;
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
 }
 
-.fourth-page::before{
+.fourth-page::before {
   height: 912.76px;
 }
 
@@ -315,7 +316,7 @@ p {
   font-size: 24px;
   line-height: 1.2em;
 
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   color: var(--light-dark);
 }
@@ -325,7 +326,7 @@ p {
 }
 
 .subtitle {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   line-height: 1.2em;
 }
@@ -340,13 +341,14 @@ p {
 }
 
 .title-description {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.2em;
   color: var(--white);
   text-transform: uppercase;
 }
+
 /* 5 page */
 
 .fiveth-page::before {
@@ -405,7 +407,10 @@ p {
   background-color: var(--main-dark);
 }
 
-.form-section p, 
+.form-section p {
+  color: var(--white);
+}
+
 .form-section h3 {
   color: var(--white);
 }
@@ -463,7 +468,7 @@ p {
 }
 
 .footer-input::placeholder {
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 13.1px;
   line-height: 160%;
@@ -473,7 +478,7 @@ p {
 }
 
 .subscribed {
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
@@ -492,12 +497,12 @@ p {
 }
 
 .contact {
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
 }
 
 .contacts a {
-  color: #1085C5;
+  color: #1085c5;
 }
